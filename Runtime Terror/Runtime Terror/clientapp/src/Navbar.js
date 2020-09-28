@@ -29,9 +29,6 @@ const Bar = (props) => {
             <NavItem>
               <NavLink href="/About/">About</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/book-a-trip/">Book a Trip</NavLink>
-            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Contact Information
@@ -46,7 +43,9 @@ const Bar = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <Button>Login</Button>
+          <Button>
+            <NavLink href = "/Login/">Login</NavLink> 
+          </Button>
         </Collapse>
       </Navbar>
     </div>
