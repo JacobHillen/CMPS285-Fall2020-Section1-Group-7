@@ -9,21 +9,20 @@ import {
 
 const items = [
   {
-    src: 'KGCarouselImage1.png',
+    src: 'KGCarouselImage4.png',
     altText: 'F',
-    caption: 'Fishing'
     
   
   },
   {
     src: 'KGCarouselImage2.png',
     altText: 'Slide 2',
-    caption: 'Slide 2'
+   
   },
   {
     src: 'KGCarouselImage3.png',
     altText: 'Slide 3',
-    caption: 'Slide 3'
+   
   }
 ];
 
@@ -51,7 +50,7 @@ const MyCarousel = (props) => {
   const slides = items.map((item) => {
     return (
       <CarouselItem
-        onExiting={(KGCarouselImage1) => setAnimating(true)}
+        onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
       >
