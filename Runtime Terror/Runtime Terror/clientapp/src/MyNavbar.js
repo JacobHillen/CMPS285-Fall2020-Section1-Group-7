@@ -29,9 +29,12 @@ const Bar = (props) => {
             <NavItem>
               <NavLink href="/About/">About</NavLink>
             </NavItem>
+            <NavItem>
+             <NavLink href ="/Review-Page/">Leave a Review</NavLink>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Contact Information
+                Book a Trip!
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
