@@ -9,7 +9,11 @@ body {
   text-align: center;
 }
 .carousel { 
-  image-rendering: auto;
   inline-size: 150px;
-  
-  width:300px; height:360px;}
+  left: 6.3in;
+  width:300px; height:360px;
+background-image:  bottom bottom;
+  }
+  .carousel-items{
+    position: bottom ;
+  }

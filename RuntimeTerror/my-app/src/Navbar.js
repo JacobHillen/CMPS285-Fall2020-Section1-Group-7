@@ -12,9 +12,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
+  NavbarText , Button
 } from 'reactstrap';
-
 const Bar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,38 +22,34 @@ const Bar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Home</NavbarBrand>
+        <NavbarBrand href="/">K&G Charters</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink href="/About/">About</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/book-a-trip/">Book a Trip</NavLink>
-            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                contact info
+                Contact Information
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Facebook
+                  <NavLink href = "https://m.facebook.com/kevin.martin.94849410">Facebook</NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  phone number
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
+                  (504)-689-8147
+                  </DropdownItem>
+                  </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Login</NavbarText>
+          <Button>
+            <NavLink href = "/Login/">Login</NavLink> 
+          </Button>
         </Collapse>
       </Navbar>
     </div>
+
   );
 }
 
