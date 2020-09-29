@@ -1,0 +1,19 @@
+body {
+  background-image: url('K&GBackgroundVisual.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background:'rgba(0, 0 , 0 , 0.5)';
+}
+.App {
+  text-align: center;
+}
+.carousel { 
+  inline-size: 150px;
+  left: 6.3in;
+  width:250px; height:320px;
+  min-width: 300px;
+  min-height: 300px;
+  }
+  
+  

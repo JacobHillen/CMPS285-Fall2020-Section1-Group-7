@@ -1,0 +1,23 @@
+{
+  "name": "cmps285-fall2020-section1-group-7",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevmich/CMPS285-Fall2020-Section1-Group-7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevmich/CMPS285-Fall2020-Section1-Group-7/issues"
+  },
+  "homepage": "https://github.com/kevmich/CMPS285-Fall2020-Section1-Group-7#readme"
+}
